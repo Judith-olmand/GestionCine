@@ -1,4 +1,10 @@
-package PACKAGE_NAME;
+public class ProyeccionClasica extends Proyeccion{
+    public ProyeccionClasica(String titulo, double precioBase) {
+        super(titulo, precioBase);
+    }
 
-public class ProyeccionClasica {
+    @Override
+    public double calcularPrecio() {
+        return super.calcularPrecio();
+    }
 }
